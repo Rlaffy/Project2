@@ -7,27 +7,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Styles.css" /> 
+    <link rel="stylesheet" href="Styles.css" />
     <link rel="icon" type="image/x-icon" href="ReligionIcon.jpeg">
+    <script src="Linkhover.js"></script>
+
+    <style>
+        li {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding-right: 120px;
+            border-radius: 10px;
+            background-color: rgba(160, 82, 53, 0.342);
+        }
+    </style>
 </head>
-<body>
+<body style="background-image: url(https://media.istockphoto.com/photos/old-stained-paper-texture-picture-id523766804?b=1&k=20&m=523766804&s=612x612&w=0&h=f8tmDlIzbGjtEmx1zoTLq4ZwtIEY8WoTFh2V-Xz_QGk=);">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <div class="container-fluid">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="Intro.html">Intro</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="PersonalExperiences.html">Personal Experiences and Accounts</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="ExternaSources.html">External Sources</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="Form.html">Form</a>
-            </li>
-          </ul>
+        <div style="background-image: url(https://cdn.shoplightspeed.com/shops/628395/files/16550306/1600x2048x1/egyptian-papyrus-light-16-x-24.jpg); font-family: 'Times New Roman', Times, serif; font-size: 20px; " class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a style="color: black; " class="nav-link" href="Intro.html">Intro</a>
+                </li>
+                <li class="nav-item">
+                    <a style="color: black" class="nav-link" href="PersonalExperiences.html">Personal Experiences and Accounts</a>
+                </li>
+                <li class="nav-item">
+                    <a style="color: black" class="nav-link" href="ExternaSources.html">External Sources</a>
+                </li>
+                <li class="nav-item">
+                    <a style="color: black" class="nav-link" href="Form.html">Form</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <button class="btn btn-dark" type="button">Search</button>
+            </form>
         </div>
-      </nav>
+    </nav>
+    <div class="mt-4 p-5 rounded" style="background-color: rgba(122, 89, 40, 0.438); color: rgba(112, 77, 32, 0.74);">
+        <h1>Form and Signing Up,</h1>
+        <p style=>
+            This fictitious example is a questionnaire that will be emailed to 
+            no where in particular.This is simply a form that would be normally at the end of sites that would allow
+            for you to provide info of sorts if neccesary.
+        </p>
+    </div>
+    <script src="Linkhover.js"></script>
+    <form class="form-horizontal" action="/action_page.php" style="font-family:'Times New Roman'">
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="email">Email:</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="pwd">Phone Number:</label>
+            <div class="col-sm-10">
+                <input type="number" class="form-control" id="pwd" placeholder="Enter Phone Number">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                    <label><input type="checkbox"> Sign Up for Newsletter</label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">Submit</button>
+            </div>
+        </div>
+    </form>
 </body>
+
+
+
+
+<div class="container my-5">
+
+    <footer class="text-center text-lg-start" style="background-color: burlywood;">
+        <div class="container d-flex justify-content-center py-5">
+            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: saddlebrown;">
+                <i class="fab fa-facebook-f"></i>
+            </button>
+            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: saddlebrown;">
+                <i class="fab fa-youtube"></i>
+            </button>
+            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: saddlebrown;">
+                <i class="fab fa-instagram"></i>
+            </button>
+            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: saddlebrown;">
+                <i class="fab fa-twitter"></i>
+            </button>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+</div>
 </html>
